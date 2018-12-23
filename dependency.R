@@ -1,0 +1,12 @@
+try(require(shiny) || install.packages("shiny"))
+try(require(udpipe) || install.packages("udpipe"))
+try(require(stringr) || install.packages("stringr"))
+try(require(ggraph) || install.packages("ggraph"))
+try(require(shinythemes) || install.packages("shinythemes"))
+
+library(shiny)
+library(shinythemes)
+library(stringr)
+library(ggraph)
+library(udpipe)
+windowsFonts(devanew=windowsFont("Devanagari new normal"))
